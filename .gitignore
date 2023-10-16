@@ -1,0 +1,46 @@
+# .gitignore
+
+# Ignore PyCharm project settings
+.idea/
+
+# Ignore Python cache files and directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc.py
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python virtual environments
+venv/
+*.venv
+.env
+*venv/
+
+# Ignore VSCode project settings
+.vscode/
+
+# Ignore the .golangci.yml file
+.golangci.yml
+
+# Ignore any Go binaries
+*.exe
+*.exe~
+
+# Ignore the SQLite database file:
+*.sqlite3
+*.s3db
+*.db
+
+# Ignore Gradle build files and temporary files
+**/build/
+**/tmp/
+
+# Ignore the .gradle cache directory
+.gradle/
