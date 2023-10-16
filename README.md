@@ -1,8 +1,8 @@
 # Table of Contents
-- [Prompts for TOPIC CREATION using ChatGPT](#instruct-chatgpt-to-review-the-theory-on-its-own--%EF%B8%8F-not-100-reliable-%EF%B8%8F)
+- [Prompts for TOPIC CREATION using ChatGPT](#prompts-for-topic-creation-using-chatgpt)
   
   - [Initial Conversation prompts without PLACEHOLDERS](#initial-conversation-prompts-without-placeholders)
-    - [SYSTEM PROMPT — Act as an experienced CS EdTech Content Creator](##system-prompt--act-as-an-experienced-cs-edtech-content-creator)
+    - [SYSTEM PROMPT — Act as an experienced CS EdTech Content Creator](#system-prompt--act-as-an-experienced-cs-edtech-content-creator)
     - [FIRST CHAT PROMPT — Generate non-AI robotic text that fits the Hyperskill style](#first-chat-prompt--generate-non-ai-robotic-text-that-fits-the-hyperskill-style)
     
   - [Prompts with PLACEHOLDERS for PROGRAMMING LANGUAGE topics](#prompts-with-placeholders-for-programming-language-topics)
@@ -19,7 +19,8 @@
     - [Generate ENTIRE/FULL topic theory for GENERAL SUBJECTS](#generate-entirefull-topic-theory-for-general-subjects)
     - [Instruct ChatGPT to make changes to the theory based on author's domain of knowledge](#instruct-chatgpt-to-make-changes-to-the-theory-based-on-authors-domain-of-knowledge)
     - [Instruct ChatGPT to review theory on its own and rewrite the theory — ⚠️ NOT 100% RELIABLE ⚠️](#instruct-chatgpt-to-review-the-theory-on-its-own--%EF%B8%8F-not-100-reliable-%EF%B8%8F)
-   
+
+    
 - [Prompts for PROOFREADING THEORY SECTIONS using ChatGPT](#prompts-for-proofreading-theory-sections-using-chatgpt)
 
     - [SYSTEM PROMPT — Act as a professional proofreader](#system-prompt--act-as-a-professional-proofreader)
@@ -32,7 +33,7 @@
 ---
 
  
-# Prompts for TOPIC CREATION using ChatGPT-4
+# Prompts for TOPIC CREATION using ChatGPT
 
 ## Initial Conversation prompts without [PLACEHOLDERS]
 
