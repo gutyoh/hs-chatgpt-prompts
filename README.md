@@ -9,16 +9,16 @@
     - [Generate topic structure](#generate-topic-structure)
     - [Refine topic structure with specific author instructions](#refine-topic-structure-with-specific-author-instructions)
     - [Generate ENTIRE/FULL topic theory for PROGRAMMING LANGUAGE topics](#generate-entirefull-topic-theory-for-programming-language-topics)
-    - [Instruct ChatGPT to modify theory based on the author's domain of knowledge]
-    - [Instruct ChatGPT to review and modify theory on its own — ⚠️ NOT 100% RELIABLE ⚠️]
+    - [Instruct ChatGPT to modify theory based on the author's domain of knowledge](#instruct-chatgpt-to-modify-theory-based-on-the-authors-domain-of-knowledge)
+    - [Instruct ChatGPT to review and modify theory on its own — ⚠️ NOT 100% RELIABLE ⚠️](#instruct-chatgpt-to-review-and-modify-theory-on-its-own--%EF%B8%8F-not-100-reliable-%EF%B8%8F)
 
 
   - [Prompts with PLACEHOLDERS for GENERAL SUBJECTS](#prompts-with-placeholders-for-general-subjects)
     - [Generate topic structure for GENERAL SUBJECTS](#generate-topic-structure-for-general-subjects)
     - [Refine topic structure with specific author instructions](#refine-topic-structure-with-specific-author-instructions-1)
     - [Generate ENTIRE/FULL topic theory for GENERAL SUBJECTS](#generate-entirefull-topic-theory-for-general-subjects)
-    - [Instruct ChatGPT to modify GENERAL SUBJECTS theory based on author's domain of knowledge]
-    - [Instruct ChatGPT to review and modify GENERAL SUBJECTS theory on its own — ⚠️ NOT 100% RELIABLE ⚠️]
+    - [Instruct ChatGPT to modify GENERAL SUBJECTS theory based on author's domain of knowledge](#instruct-chatgpt-to-modify-general-subjects-theory-based-on-authors-domain-of-knowledge)
+    - [Instruct ChatGPT to review and modify GENERAL SUBJECTS theory on its own — ⚠️ NOT 100% RELIABLE ⚠️](#instruct-chatgpt-to-review-and-modify-general-subjects-theory-on-its-own--%EF%B8%8F-not-100-reliable-%EF%B8%8F)
 
     
 - [Prompts for PROOFREADING THEORY SECTIONS using ChatGPT](#prompts-for-proofreading-theory-sections-using-chatgpt)
