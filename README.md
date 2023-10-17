@@ -56,7 +56,7 @@
 ### Generate topic structure
 >I'm working on a topic titled ["ENTER TOPIC TITLE/NAME HERE"] in the ["ENTER PROGRAMMING LANGUAGE NAME HERE"] programming language, and I need you to provide a topic structure for it. The topic's first section should be "Introduction" section, and the last section should be "Conclusion".
 >
->Each section in the topic should cover practical aspects of the topic, follow a sequential and logical order, and build upon the previous one without being redundant or repetitive. Aim for a total of 4-6 sections in addition to the "Introduction" and "Conclusion".
+>Each section in the topic should cover practical aspects of the topic, follow a sequential and logical order, and build upon the previous one without being redundant or repetitive. Aim for a total of 4-6 sections in addition to the "Introduction" and "Conclusion". In your answer, provide the section titles only WITHOUT any additional information or meta-text.
 
  
 ### Refine topic structure with specific author instructions
@@ -69,7 +69,7 @@
 >
 >Ideally, the section immediately following the "Introduction" should be ["ENTER THE SECTION THAT SHOULD COME AFTER 'Introduction' HERE"], where we delve into ["ENTER THE 1-2 CONCEPTS OF THE SECTION HERE"].
 >
->Subsequent sections should emphasize guiding readers on the practical aspects, such as ["ENTER PRACTICAL ASPECTS HERE, e.g., 'setup/usage' or 'implementation details'"]. You can also highlight sections about limitations and best practices if they are pertinent to the ["ENTER TOPIC TITLE/NAME HERE"] topic. Avoid generic or repetitive titles; each section title should be short but clearly indicate its specific content. There should be NO repetitive sections, and aim for a total of 4-6 sections in addition to the "Introduction" and "Conclusion".
+>Subsequent sections should emphasize guiding readers on the practical aspects, such as ["ENTER PRACTICAL ASPECTS HERE, e.g., 'setup/usage' or 'implementation details'"]. You can also highlight sections about limitations and best practices if they are pertinent to the ["ENTER TOPIC TITLE/NAME HERE"] topic. Avoid generic or repetitive titles; each section title should be short but clearly indicate its specific content. There should be NO repetitive sections, and aim for a total of 4-6 sections in addition to the "Introduction" and "Conclusion". In your answer, provide the section titles only WITHOUT any additional information or meta-text.
 
  
 ### Generate ENTIRE/FULL topic theory for PROGRAMMING LANGUAGE topics
@@ -136,7 +136,7 @@
 ### Generate topic structure for GENERAL SUBJECTS
 >I'm working on a topic titled ["ENTER TOPIC TITLE/NAME HERE"] related to ["ENTER GENERAL SUBJECT NAME e.g., 'Essentials/Algorithms/Math/Statistics' HERE"]. I need you to provide a topic structure for it. The topic's first section should be the "Introduction" section, and the last section should be the "Conclusion".
 >
->Each section in the topic should delve into the core principles and applications of the concept, maintain a sequential and logical order, and build upon the previous section without redundancy. Aim for a total of 4-6 sections in addition to the "Introduction" and "Conclusion".
+>Each section in the topic should delve into the core principles and applications of the concept, maintain a sequential and logical order, and build upon the previous section without redundancy. Aim for a total of 4-6 sections in addition to the "Introduction" and "Conclusion". In your answer, provide the section titles only WITHOUT any additional information or meta-text.
 
  
 ### Refine topic structure with specific author instructions
@@ -149,7 +149,7 @@
 >
 >Ideally, the section immediately following the "Introduction" should be ["ENTER THE SECTION THAT SHOULD COME AFTER 'Introduction' HERE"], where we delve into ["ENTER THE 1-2 CONCEPTS OF THE SECTION HERE"].
 >
->Subsequent sections should emphasize guiding readers on the practical aspects, such as ["ENTER PRACTICAL ASPECTS HERE, e.g., 'setup/usage' or 'implementation details'"]. You can also highlight sections about limitations and best practices if they are pertinent to the ["ENTER TOPIC NAME/TITLE HERE"] topic. Avoid generic or repetitive titles; each section title should be short but clearly indicate its specific content. There should be NO repetitive sections, and aim for a total of 4-6 sections in addition to the "Introduction" and "Conclusion".
+>Subsequent sections should emphasize guiding readers on the practical aspects, such as ["ENTER PRACTICAL ASPECTS HERE, e.g., 'setup/usage' or 'implementation details'"]. You can also highlight sections about limitations and best practices if they are pertinent to the ["ENTER TOPIC NAME/TITLE HERE"] topic. Avoid generic or repetitive titles; each section title should be short but clearly indicate its specific content. There should be NO repetitive sections, and aim for a total of 4-6 sections in addition to the "Introduction" and "Conclusion". In your answer, provide the section titles only WITHOUT any additional information or meta-text.
 
  
 ### Generate ENTIRE/FULL topic theory for GENERAL SUBJECTS
