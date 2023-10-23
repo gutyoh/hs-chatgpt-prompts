@@ -255,47 +255,54 @@ I suggest you read the above guide first, and after that start using the prompts
 ### Instruct ChatGPT to provide feedback for incorrect options in (MCQ) problems
 
 > Given the following comprehension problem:
->
+> 
 > ["ENTER FULL MCQ TASK DESCRIPTION/STATEMENT HERE"]
+> 
+> With the possible options being:
 > 
 > ["ENTER ALL (BOTH INCORRECT AND CORRECT) MCQ OPTIONS HERE EACH ON A NEW LINE
 > 
 > Option 1
 > 
 > Option 2
->
+> 
 > Option 3
 > 
 > ..."]
 > 
 > ---
->
->With the correct answer(s) being:
->
->["ENTER THE CORRECT ANSWER(S) OPTIONS HERE EACH ON A NEW LINE
->
->Correct Option 1
->
->Correct Option 2
->
->..."]
->
->---
->
->For each of the following incorrect options, provide a SINGLE feedback explanation within 120 characters. 
->
->Each feedback explanation should be comprehensive but clear, and concise as well. Start each feedback with "Wrong!".
->
->The feedback explanations MUST BE STANDALONE (not referencing or depending on other feedback explanations).
->
->Ensure the language used is at a B2 English level, use simpler words, and avoid advanced vocabulary or formal expressions.
->
->You MUST output each feedback explanation on a new line WITHOUT ANY additional text, prefix, or meta information.
->
->["ENTER THE INCORRECT/WRONG ANSWER(S) OPTIONS HERE EACH ON A NEW LINE
->
->Incorrect Option 1
->
->Incorrect Option 2
->
->..."]
+> 
+> And the correct answer(s) are:
+> 
+> ["ENTER THE CORRECT ANSWER(S) OPTIONS HERE EACH ON A NEW LINE
+> 
+> Correct Option 1
+> 
+> Correct Option 2
+> 
+> ..."]
+> 
+> ---
+> 
+> For each of the incorrect options below, provide a SINGLE feedback explanation within 120 characters. 
+> 
+> Each feedback explanation should be comprehensive but clear, and concise as well. Start each feedback with "Wrong!".
+> 
+> The feedback explanations MUST BE STANDALONE (not referencing or depending on other feedback explanations).
+> 
+> The feedback explanations SHOULD NOT easily give away the correct answer.
+> 
+> Ensure you use simple words for the explanation and avoid advanced vocabulary or formal expressions.
+> 
+> You MUST output each feedback explanation on a new line WITHOUT ANY additional text, prefix, or meta information.
+> 
+> Incorrect options:
+> ["ENTER THE INCORRECT/WRONG ANSWER(S) OPTIONS HERE EACH ON A NEW LINE
+> 
+> Incorrect Option 1
+> 
+> Incorrect Option 2
+> 
+> ..."]
+
+**Example usage: https://chatgpt-ui.aks-internal.int.hyperskill.org/chat/e4754307-7d59-4910-a887-d20063891099**
