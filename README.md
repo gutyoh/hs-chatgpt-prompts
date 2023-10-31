@@ -284,9 +284,9 @@ I suggest you read the above guide first, and after that start using the prompts
 > 
 > ---
 > 
-> For each of the incorrect options below, provide a SINGLE feedback explanation within 120 characters. 
+> For each of the incorrect options below, provide a SINGLE feedback explanation within 120 characters.
 > 
-> Each feedback explanation should be comprehensive but clear, and concise as well. Start each feedback with "Wrong!".
+> Each feedback explanation should be comprehensive but clear and concise as well.
 > 
 > The feedback explanations MUST BE STANDALONE (not referencing or depending on other feedback explanations).
 > 
@@ -294,7 +294,7 @@ I suggest you read the above guide first, and after that start using the prompts
 > 
 > Ensure you use simple words for the explanation and avoid advanced vocabulary or formal expressions.
 > 
-> You MUST output each feedback explanation on a new line WITHOUT ANY additional text, prefix, or meta information.
+> You MUST output each feedback explanation as a bullet point using `-` WITHOUT ANY additional text, prefix, or meta information.
 > 
 > Incorrect options:
 > 
