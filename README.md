@@ -7,7 +7,7 @@
 - [Prompts for Multiple Choice Question (MCQ) problems](./problem_prompts/prompts_choice_problems.md)
 - [Prompts for String (Text) problems](./problem_prompts/prompts_string_problems.md)
 - [Prompts for Parsons problems](./problem_prompts/prompts_parsons_problems.md)
-- [Prompts for Fill in the Blanks (Faded Parsons) problems](./problem_prompts/prompts_parsons_problems.md)
+- [Prompts for Fill in the Blanks (Faded Parsons) problems](./problem_prompts/prompts_fill_blanks_problems.md)
 
 ## Prompts for PROOFREADING using ChatGPT
 - [Prompts for PROOFREADING THEORY SECTIONS](./proofreading_prompts/prompts_proofreading_theory.md)
