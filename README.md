@@ -9,5 +9,8 @@
 - [Prompts for Parsons problems](./problem_prompts/prompts_parsons_problems.md)
 - [Prompts for Fill in the Blanks (Faded Parsons) problems](./problem_prompts/prompts_fill_blanks_problems.md)
 
+## Prompts for TRANSFORMING PROBLEMS TO SEASONAL VARIETIES using ChatGPT
+- [Prompts for transforming problems to Christmas versions](./seasonal_prompts/prompts_christmas_problems.md)
+
 ## Prompts for PROOFREADING using ChatGPT
 - [Prompts for PROOFREADING THEORY SECTIONS](./proofreading_prompts/prompts_proofreading_theory.md)
