@@ -8,6 +8,9 @@
 - [Prompts for String (Text) problems](./problem_prompts/prompts_string_problems.md)
 - [Prompts for Parsons problems](./problem_prompts/prompts_parsons_problems.md)
 - [Prompts for Fill in the Blanks (Faded Parsons) problems](./problem_prompts/prompts_fill_blanks_problems.md)
+- [Prompts for Code problems with Simple Test cases](./problem_prompts/prompts_code_problems_simple_test_cases.md)
+- [Prompts for Code problems with Python Tests — EXPERIMENTAL ⚠️](./problem_prompts/prompts_code_problems_advanced_editor.md)
+- [Prompts for Matching problems](./problem_prompts/prompts_matching_problems.md)
 
 ## Prompts for TRANSFORMING PROBLEMS TO SEASONAL VARIETIES using ChatGPT
 - [Prompts for transforming problems to Christmas versions](./seasonal_prompts/prompts_christmas_problems.md)
