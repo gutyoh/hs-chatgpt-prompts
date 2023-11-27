@@ -79,4 +79,4 @@ Create a matching problem following these guidelines:
 9. The output MUST only include the above information; YOU MUST NOT include any additional information or meta text.
 ```
 
-### 🚀 EXAMPLE USAGE: TODO
+### 🚀 EXAMPLE USAGE: https://chatgpt-ui.aks-internal.int.hyperskill.org/s/FBr4x/unraveling-python-sockets-comprehension

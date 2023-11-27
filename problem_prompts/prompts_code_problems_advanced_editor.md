@@ -98,4 +98,4 @@ YOU MUST STRICTLY follow these rules for creating the code template:
 7. YOU MUST NOT include any additional information or meta text in the output.
 ```
 
-### 🚀 EXAMPLE USAGE: TODO
+### 🚀 EXAMPLE USAGE: https://chatgpt-ui.aks-internal.int.hyperskill.org/s/59rb4/determining-prime-numbers
