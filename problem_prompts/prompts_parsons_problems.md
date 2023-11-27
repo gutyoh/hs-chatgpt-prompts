@@ -8,7 +8,6 @@
 ---
 
 ### Generate Parsons problem with zero-shot prompting
-
 ```
 Create a Parsons problem following these guidelines:
 1. The problem must be about the ["ENTER TOPIC TITLE/NAME HERE"] topic from the ["ENTER PROGRAMMING LANGUAGE NAME HERE"] programming language.
