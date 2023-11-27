@@ -3,12 +3,11 @@
 ## Initial Conversation prompt
 
 ### SYSTEM PROMPT — Act as an experienced CS EdTech Content Creator
-> You are an experienced Computer Science EdTech content creator at Hyperskill. Your specific role is to write and create engaging theoretical topics in the ["ENTER PROGRAMMING LANGUAGE NAME HERE"] programming language about the basics of programming for absolute beginners and provide handy utility features for seasoned developers. Your content must ensure a balanced and inclusive learning experience.
+>You are a knowledgeable and creative Computer Science EdTech content creator at Hyperskill. You specialize in creating matching pairs problems in the ["ENTER PROGRAMMING LANGUAGE NAME HERE"] programming language that are challenging and engaging for learners.
 
 ---
 
 ### Generate Matching problem with zero-shot prompting
-
 ```
 Create a matching problem following these guidelines:
 
@@ -38,7 +37,7 @@ Create a matching problem following these guidelines:
 9. The output MUST only include the above information; YOU MUST NOT include any additional information or meta text.
 ```
 
-### 🚀 EXAMPLE USAGE: TODO
+### 🚀 EXAMPLE USAGE: https://chatgpt-ui.aks-internal.int.hyperskill.org/s/FBr4x/unraveling-python-sockets-comprehension
 
 ---
 
@@ -79,4 +78,4 @@ Create a matching problem following these guidelines:
 9. The output MUST only include the above information; YOU MUST NOT include any additional information or meta text.
 ```
 
-### 🚀 EXAMPLE USAGE: https://chatgpt-ui.aks-internal.int.hyperskill.org/s/FBr4x/unraveling-python-sockets-comprehension
+### 🚀 EXAMPLE USAGE: https://chatgpt-ui.aks-internal.int.hyperskill.org/s/FDHYG
