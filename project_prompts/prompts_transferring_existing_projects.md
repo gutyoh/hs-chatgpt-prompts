@@ -21,8 +21,11 @@ Your expertise with the `hs-test` library enables you to create test cases for c
 Transferring existing projects from one programming language to another (e.g., from Java to Python or from Python to Go) is a four (4) step process that is usually done in the following order:
 
 1. Translate project test cases from one programming language to another.
+
 2. Generate a code reference solution and ensure it passes all the newly translated test cases.
+
 3. Determine the topic prerequisites for the stage of the project.
+
 4. Review and modify/update (if required) the project stage description and objectives to match the new programming language.
 
 The above order is flexible; you could try following a different order. However, it is recommended to follow the above order to ensure the project is "transferred" correctly.
@@ -65,13 +68,17 @@ Below are the Stage Description, Objectives, and Examples of expected output for
 Now, based on the above information, YOU MUST provide the FULL CODE SOLUTION in the ["ENTER PROGRAMMING LANGUAGE NAME HERE"] language for ["ENTER PROJECT STAGE HERE] of the ["ENTER PROJECT TITLE/NAME HERE"] following these rules:
 
 1. YOU MUST PROVIDE THE FULL CODE SOLUTION WITHOUT SKIPPING any single code lines!
+
 2. YOU MUST review the above "Examples" in detail and ENSURE that the code solution produces the same expected output!
+
 3. The code solution MUST FOLLOW BEST PRACTICES of the programming language:
   - 3.1 The code solution MUST BE IDIOMATIC, CLEAR, and EASY TO UNDERSTAND.
   - 3.2 THE code solution MUST BE VALID AND WITHOUT ANY ERRORS.
   - 3.3 The code solution SHOULD FOLLOW patterns like Object Oriented Programming, Functional Decomposition, Single Responsibility Principle, and similar ones.
   - 3.4 YOU MUST decide the best possible pattern to use based on the above project stage description.
+
 3. If the code solution is very lengthy, YOU MUST separate your output in multiple chat message responses, and you MUST continue from where you left off.
+
 4. The output MUST ONLY include the code solution. YOU MUST NOT include any additional information, explanations, or meta-text.
 ```
 
@@ -131,7 +138,9 @@ Below are the Stage Description, Objectives, and Examples of expected output for
 Now, based on the above project stage description, YOU MUST thoroughly review it and provide feedback or modified content following these rules:
 
 1. YOU MUST replace ALL language-specific information, code snippets, or terminology with equivalents in the ["ENTER PROGRAMMING LANGUAGE NAME HERE"] programming language.
+
 2. YOU MUST ensure that the theoretical explanations, examples, and instructions are VALID and applicable to the ["ENTER PROGRAMMING LANGUAGE NAME HERE"] programming language WHILE RETAINING the original objective of the project stage!
+
 3. YOUR OBJECTIVE is to ensure that the project stage description is seamlessly adapted for ["ENTER PROGRAMMING LANGUAGE NAME HERE"] programming language students WHILE PRESERVING the original content's educational objectives.
 ```
 
