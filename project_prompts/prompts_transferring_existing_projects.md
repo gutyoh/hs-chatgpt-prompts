@@ -16,60 +16,43 @@ Your expertise with the `hs-test` library enables you to create test cases for c
 
 ---
 
-## ⚠️ Steps to transfer projects from one programming language to another ⚠️
+## 📋 Steps to transfer projects from one programming language to another 🔢
 
-Transferring existing projects from one programming language to another (e.g., from Java to Python or from Python to Go) is a four (4) step process that is usually done in the following order:
+Transferring existing projects from one programming language to another (e.g., from Java to Python or from Python to Go) is a three (3) step process that is usually done in the following order:
 
-1. Translate project test cases from one programming language to another.
+1. Generate a code reference solution and ensure it passes all the test cases.
 
-2. Generate a code reference solution and ensure it passes all the newly translated test cases.
+2. Determine the topic prerequisites for the stage of the project.
 
-3. Determine the topic prerequisites for the stage of the project.
+3. Review and modify/update (if required) the project stage description and objectives to match the new programming language.
 
-4. Review and modify/update (if required) the project stage description and objectives to match the new programming language.
+### ⚠️ Optional step: Translating test cases from Python↔️Java ⚠️
 
-The above order is flexible; you could try following a different order. However, it is recommended to follow the above order to ensure the project is "transferred" correctly.
+There is one optional step, which is to translate the project test cases from Python to Java or vice versa; this step is NOT always required; however, it can be useful in some cases like:
 
----
+- **Language proficiency**: If the project author is more proficient in the source language than the target language of a project (e.g., skilled in Java but NOT in Python, or vice versa), it can be convenient to translate the test cases. This approach makes it easier for the Project Author to maintain or fix the test cases during the testing process and in the future.
 
-### PROMPT #1 - Translate project test cases from one programming language to another:
+- **Framework compatibility**: The `hs-test-python` does NOT support testing JVM languages (Java, Kotlin, Scala) solutions, so if you want to transfer a project from Python to a JVM language track, you will need to translate the test cases from Python to Java first before generating the code reference solution.
 
-```
-Below are the ["ENTER PROGRAMMING LANGUAGE NAME HERE"] test cases of ["ENTER PROJECT STAGE HERE] of the ["ENTER PROJECT TITLE/NAME HERE"] project that uses the `hs-test` library:
-
-["ENTER THE PROJECT TEST CASES HERE"
-    ...
-    ...
-    ..."]
-
-Now, YOU MUST go ahead and TRANSLATE the above Java code into Python following these rules:
-
-1. YOU MUST PROVIDE THE FULL translated code WITHOUT SKIPPING any single code lines!
-2. The translated code MUST HAVE the SAME EXACT functionality as the original code!
-3. The translated code MUST BE IDIOMATIC AND VALID WITHOUT ANY ERRORS.
-4. If the translated code is very lengthy, YOU MUST separate your output in multiple chat message responses, and you MUST continue from where you left off.
-5. The output MUST ONLY include the translated code. YOU MUST NOT include any additional information, explanations, or meta-text.
-```
-
-### 🚀 EXAMPLE USAGE: TODO
+- **Overall language consistency**: While it's possible to test Python solutions with Java tests, it's considered a best practice to have test cases in the same language as the project solution.
 
 ---
 
-### PROMPT #2 - Generate a code reference solution and ensure it passes all the newly translated test cases:
+### PROMPT #1 - Generate a code reference solution and ensure it passes all test cases:
 
 ```
-Below are the Stage Description, Objectives, and Examples of expected output for the ["ENTER PROJECT STAGE HERE] of the ["ENTER PROJECT TITLE/NAME HERE"] project:
+Below are the Stage Description, Objectives, and Examples of expected output for the ["ENTER PROJECT STAGE NUMBER HERE"] of the ["ENTER PROJECT TITLE/NAME HERE"] project:
 
 ["ENTER THE PROJECT STAGE DESCRIPTION AND EXAMPLES IN HTML FORMAT HERE"
     ...
     ...
     ..."]
 
-Now, based on the above information, YOU MUST provide the FULL CODE SOLUTION in the ["ENTER PROGRAMMING LANGUAGE NAME HERE"] language for ["ENTER PROJECT STAGE HERE] of the ["ENTER PROJECT TITLE/NAME HERE"] following these rules:
+Now, based on the above information, YOU MUST provide the FULL CODE SOLUTION in the ["ENTER PROGRAMMING LANGUAGE NAME HERE"] language for ["ENTER PROJECT STAGE NUMBER HERE"] of the ["ENTER PROJECT TITLE/NAME HERE"] project following these rules:
 
 1. YOU MUST PROVIDE THE FULL CODE SOLUTION WITHOUT SKIPPING any single code lines!
 
-2. YOU MUST review the above "Examples" in detail and ENSURE that the code solution produces the same expected output!
+2. YOU MUST review the "Objectives" and the "Example" sections in detail, and MUST ENSURE that your code solution produces the SAME EXPECTED outputs mentioned in those sections!
 
 3. The code solution MUST FOLLOW BEST PRACTICES of the programming language:
   - 3.1 The code solution MUST BE IDIOMATIC, CLEAR, and EASY TO UNDERSTAND.
@@ -77,19 +60,21 @@ Now, based on the above information, YOU MUST provide the FULL CODE SOLUTION in 
   - 3.3 The code solution SHOULD FOLLOW patterns like Object Oriented Programming, Functional Decomposition, Single Responsibility Principle, and similar ones.
   - 3.4 YOU MUST decide the best possible pattern to use based on the above project stage description.
 
-3. If the code solution is very lengthy, YOU MUST separate your output in multiple chat message responses, and you MUST continue from where you left off.
+4. The code solution MUST NOT include the '>' character when requesting user input!
 
-4. The output MUST ONLY include the code solution. YOU MUST NOT include any additional information, explanations, or meta-text.
+5. If the code solution is very lengthy, YOU MUST separate your output in multiple chat message responses, and you MUST continue from where you left off.
+
+6. The output MUST ONLY include the code solution. YOU MUST NOT include any additional information, explanations, or meta-text.
 ```
 
-### 🚀 EXAMPLE USAGE: TODO
+### 🚀 EXAMPLE USAGE: https://chatgpt-ui.aks-internal.int.hyperskill.org/s/bDsRK
 
 ---
 
-### PROMPT #3 - Determine the topic prerequisites for the stage of the project:
+### PROMPT #2 - Determine the topic prerequisites for the stage of the project:
 
 ```
-Below is the FULL code solution in the ["ENTER PROGRAMMING LANGUAGE NAME HERE"] programming language of ["ENTER PROJECT STAGE HERE] of the ["ENTER PROJECT TITLE/NAME HERE"] project:
+Below is the FULL code solution in the ["ENTER PROGRAMMING LANGUAGE NAME HERE"] programming language of ["ENTER PROJECT STAGE NUMBER HERE"] of the ["ENTER PROJECT TITLE/NAME HERE"] project:
 
 ["ENTER THE FULL PROJECT STAGE CODE SOLUTION HERE"
     ...
@@ -97,9 +82,9 @@ Below is the FULL code solution in the ["ENTER PROGRAMMING LANGUAGE NAME HERE"] 
     ..."]
 
 
-Now, based on the above code solution and programming techniques used, YOU MUST PROVIDE the TOPIC PREREQUISITES for STAGE 1 of the project following these rules:
+Now, based on the above code solution and programming techniques used, YOU MUST PROVIDE the TOPIC PREREQUISITES for the stage of the project following these rules:
 
-1. YOU MUST determine the topic prerequisites from the below list of topics in the Go track:
+1. YOU MUST determine the topic prerequisites from the below list of topics in the ["ENTER PROGRAMMING LANGUAGE NAME HERE"] track:
 
 ["ENTER THE LIST OF WITH NAMES OF ALL TOPICS IN THE TRACK HERE"
     ...
@@ -121,14 +106,14 @@ Now, based on the above code solution and programming techniques used, YOU MUST 
 5. The output MUST ONLY include the topic pre-requisites. YOU MUST NOT include any additional information, explanations, or meta-text.
 ```
 
-### 🚀 EXAMPLE USAGE: TODO
+### 🚀 EXAMPLE USAGE: https://chatgpt-ui.aks-internal.int.hyperskill.org/s/NZv9g
 
 ---
 
-### PROMPT #4 - Review and modify/update (if required) the project stage description and objectives to match the new programming language:
+### PROMPT #3 - Review and modify/update (if required) the project stage description and objectives to match the new programming language:
 
 ```
-Below are the Stage Description, Objectives, and Examples of expected output for the ["ENTER PROJECT STAGE HERE] of the ["ENTER PROJECT TITLE/NAME HERE"] project:
+Below are the Stage Description, Objectives, and Examples of expected output for the ["ENTER PROJECT STAGE NUMBER HERE"] of the ["ENTER PROJECT TITLE/NAME HERE"] project:
 
 ["ENTER THE PROJECT STAGE DESCRIPTION AND EXAMPLES IN HTML FORMAT HERE"
     ...
@@ -137,11 +122,37 @@ Below are the Stage Description, Objectives, and Examples of expected output for
 
 Now, based on the above project stage description, YOU MUST thoroughly review it and provide feedback or modified content following these rules:
 
-1. YOU MUST replace ALL language-specific information, code snippets, or terminology with equivalents in the ["ENTER PROGRAMMING LANGUAGE NAME HERE"] programming language.
+1. YOU MUST keep the theoretical explanations, instructions, and examples as close to the original text as possible. DO NOT alter any part of the text unrelated to technical or programming specific terms.
 
-2. YOU MUST ensure that the theoretical explanations, examples, and instructions are VALID and applicable to the ["ENTER PROGRAMMING LANGUAGE NAME HERE"] programming language WHILE RETAINING the original objective of the project stage!
+2. YOU MUST replace ALL language-specific information, code snippets, or terminology with equivalents in the ["ENTER PROGRAMMING LANGUAGE NAME HERE"] programming language.
 
-3. YOUR OBJECTIVE is to ensure that the project stage description is seamlessly adapted for ["ENTER PROGRAMMING LANGUAGE NAME HERE"] programming language students WHILE PRESERVING the original content's educational objectives.
+3. YOUR OBJECTIVE is to ensure that the project stage description is seamlessly adapted for students of the ["ENTER PROGRAMMING LANGUAGE NAME HERE"] programming language while preserving the educational objectives of the original content.
+
+4. The output MUST BE in HTML wrapped in triple backticks, and it MUST NOT include any additional information explanation or meta-text!
 ```
 
-### 🚀 EXAMPLE USAGE: TODO
+### 🚀 EXAMPLE USAGE: https://chatgpt-ui.aks-internal.int.hyperskill.org/s/CrF_M
+
+
+---
+
+### OPTIONAL PROMPT — Translate project test cases from one programming language to another:
+
+```
+Below are the ["ENTER PROGRAMMING LANGUAGE NAME HERE"] test cases of ["ENTER PROJECT STAGE NUMBER HERE"] of the ["ENTER PROJECT TITLE/NAME HERE"] project that uses the `hs-test` library:
+
+["ENTER THE PROJECT TEST CASES HERE"
+    ...
+    ...
+    ..."]
+
+Now, YOU MUST go ahead and TRANSLATE the above ["ENTER OLD TEST CASES PROGRAMMING LANGUAGE NAME HERE"] code into ["ENTER NEW TEST CASES PROGRAMMING LANGUAGE NAME HERE"] following these rules:
+
+1. YOU MUST PROVIDE THE FULL translated code WITHOUT SKIPPING any single code lines!
+2. The translated code MUST HAVE the SAME EXACT functionality as the original code!
+3. The translated code MUST BE IDIOMATIC AND VALID WITHOUT ANY ERRORS.
+4. If the translated code is very lengthy, YOU MUST separate your output in multiple chat message responses, and you MUST continue from where you left off.
+5. The output MUST ONLY include the translated code. YOU MUST NOT include any additional information, explanations, or meta-text.
+```
+
+### 🚀 EXAMPLE USAGE: https://chatgpt-ui.aks-internal.int.hyperskill.org/s/MkBbz
