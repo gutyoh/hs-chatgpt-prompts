@@ -17,6 +17,7 @@
 
 ## Prompts for PROJECTS CREATION using ChatGPT
 
+- [Prompts for generating Stage Descriptions and Test Cases of NEW projects](./project_prompts/prompts_new_project_creation.md)
 - [Prompts for transferring existing projects from one programming language to another](./project_prompts/prompts_transferring_existing_projects.md)
 
 ## Prompts for TRANSFORMING PROBLEMS TO SEASONAL VARIETIES using ChatGPT
