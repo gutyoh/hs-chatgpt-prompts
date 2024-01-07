@@ -26,3 +26,11 @@
 ## Prompts for PROOFREADING using ChatGPT
 
 - [Prompts for PROOFREADING THEORY SECTIONS](./proofreading_prompts/prompts_proofreading_theory.md)
+ 
+ 
+
+# System Prompts
+
+## Prompts for INTERVIEW MODE PREPARATION using ChatGPT
+
+- [System prompts for Interview Mode preparation](./system_prompts/prompts_interview_mode.md)
