@@ -63,6 +63,12 @@ YOU MUST PROVIDE THE FULL STAGE DESCRIPTION without omitting any critical aspect
 
   - 2.3 Examples: YOU MUST show multiple instances of expected input/output. Ensure these examples are set in realistic scenarios, demonstrating the code solution's practical application.
 
+
+  - 2.3 Examples: YOU MUST show multiple instances of expected input/output. Ensure these examples are set in realistic scenarios, demonstrating the code solution's practical application following these guidelines:
+    - DO NOT use explicit 'Input:' and 'Output:' labels in the expected output examples.
+    - List each example output in the format: "Example N: ..." <-- and replace the ... with a short description about the current example.
+    - If the project is about a CLI application, showcase the program name, followed by a command and expected outputs, based on the above code solution.
+
 3. The stage description MUST FOLLOW the following best practices:
   - 3.1 The Description MUST BE ENGAGING, CLEAR, and EDUCATIONAL.
   - 3.2 The Objectives MUST BE DETAILED, covering all code functionalities.
