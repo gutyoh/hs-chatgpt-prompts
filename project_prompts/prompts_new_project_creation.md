@@ -61,9 +61,6 @@ YOU MUST PROVIDE THE FULL STAGE DESCRIPTION without omitting any critical aspect
     - Explicitly describe the expected output of the program when each functionality is correctly implemented, including specific output messages or formats.
     - Include how the program should respond in specific scenarios (e.g., missing inputs, error handling).
 
-  - 2.3 Examples: YOU MUST show multiple instances of expected input/output. Ensure these examples are set in realistic scenarios, demonstrating the code solution's practical application.
-
-
   - 2.3 Examples: YOU MUST show multiple instances of expected input/output. Ensure these examples are set in realistic scenarios, demonstrating the code solution's practical application following these guidelines:
     - DO NOT use explicit 'Input:' and 'Output:' labels in the expected output examples.
     - List each example output in the format: "Example N: ..." <-- and replace the ... with a short description about the current example.
