@@ -78,7 +78,10 @@ YOU MUST PROVIDE THE FULL STAGE DESCRIPTION without omitting any critical aspect
 4. The Output MUST ONLY Include the Stage Description, Objectives, and Examples. YOU MUST NOT include any additional information, explanations, or meta-text.
 ```
 
-### 🚀 EXAMPLE USAGE: https://chatgpt-ui.aks-internal.int.hyperskill.org/s/mcEqq
+### 🚀 EXAMPLE USAGE 1: https://chatgpt-ui.aks-internal.int.hyperskill.org/s/mcEqq
+
+
+### 🚀 EXAMPLE USAGE 2: https://chatgpt-ui.aks-internal.int.hyperskill.org/s/fffIB
 
 ---
 
@@ -101,18 +104,21 @@ Now, based on the above information, YOU MUST provide the FULL TEST CASES using 
 3. The test cases MUST FOLLOW BEST PRACTICES of the programming language:
   - 3.1 The test cases MUST BE IDIOMATIC, CLEAR, and EASY TO UNDERSTAND.
   - 3.2 The test cases MUST BE VALID AND WITHOUT ANY ERRORS.
-  - 3.3 The test cases MUST INCLUDE concise comments to explain what is being tested.
-  - 3.4 YOU MUST decide the best possible test cases pattern to use based on the above project stage description.
+  - 3.3 YOU MUST use the 'TestedProgram' class for executing and testing the user's program. Create instances of this class only inside tests.
+  - 3.4 Descriptively name each test case, following the pattern 'testN_name_of_the_test' for Python or 'testNNameOfTheTest' for Java, where 'N' is the test number.
+  - 3.5 The test cases MUST INCLUDE concise comments to explain what is being tested.
 
-4. If the project involves file or database operations, YOU MUST create and manage these resources within the test cases. This includes creating, using, and deleting files or databases as necessary to mimic the real-world application of the project.
+4. For Python test cases, DO NOT use the `unittest` framework. The tests should be written to work solely with the `hs-test` library.
 
-5. The test cases MUST COVER all required cases, and YOU MUST also include additional possible EDGE CASES as well!
+5. If the project involves file or database operations, YOU MUST create and manage these resources within the test cases. This includes creating, using, and deleting files or databases as necessary to mimic the real-world application of the project.
 
-6. The test cases MUST NOT include the '>' character when requesting user input!
+6. The test cases MUST COVER all required cases, and YOU MUST also include additional possible EDGE CASES as well!
 
-7. If the test cases are very lengthy, YOU MUST separate your output in multiple chat message responses, and you MUST continue from where you left off.
+7. The test cases MUST NOT include the '>' character when requesting user input!
 
-8. The output MUST ONLY include the code with the test cases. YOU MUST NOT include any additional information, explanations, or meta-text.
+8. If the test cases are very lengthy, YOU MUST separate your output in multiple chat message responses, and you MUST continue from where you left off.
+
+9. The output MUST ONLY include the code with the test cases. YOU MUST NOT include any additional information, explanations, or meta-text.
 ```
 
 ### 🚀 EXAMPLE USAGE: https://chatgpt-ui.aks-internal.int.hyperskill.org/s/Tj1ER
